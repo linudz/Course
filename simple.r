@@ -4,6 +4,7 @@ new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"
 if(length(new.packages)) install.packages(new.packages, repos='http://cran.us.r-project.org')
 
 # La felicità è sovversiva se collettivizzata
+# There is no option to git this up
 
 library(dataverse)
 library(readxl)
